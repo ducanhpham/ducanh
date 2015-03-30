@@ -13,8 +13,8 @@
 
 	Route::get('/', function()
 		{
-			echo "wawa";
-			//return View::make('landing');
+			
+			return View::make('landing');
 	});
 
 	Route::get('check', function()
